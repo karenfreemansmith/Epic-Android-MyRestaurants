@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="560dpi"
+    format="7"
+    timestamp="9847416527987" >
+
+    <task
+        name="javac"
+        duration="31130" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="356" />
+    <task
+        name="verifier"
+        duration="8" />
+
+    <artifact
+        location="/Users/Guest/AndroidStudioProjects/MyRestaurants/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="9847416527987" >
+        <artifact
+            location="/Users/Guest/AndroidStudioProjects/MyRestaurants/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
