@@ -1,11 +1,2 @@
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/R$integer$override.class
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$id$override.class
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/R$layout$override.class
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/R$id$override.class
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/R$styleable$override.class
+CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/MainActivity$override.class
 CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/R$string$override.class
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/R$style$override.class
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/R$drawable$override.class
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/R$mipmap$override.class
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$drawable$override.class
