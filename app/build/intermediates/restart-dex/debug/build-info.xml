@@ -4,29 +4,44 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="9847416527987" >
+    timestamp="1861580422787" >
 
     <task
         name="javac"
-        duration="31130" />
+        duration="108" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="356" />
+        duration="0" />
     <task
         name="verifier"
-        duration="8" />
+        duration="0" />
 
     <artifact
-        location="/Users/Guest/AndroidStudioProjects/MyRestaurants/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="9847416527987" >
+    <build timestamp="522095520764" >
         <artifact
-            location="/Users/Guest/AndroidStudioProjects/MyRestaurants/app/build/outputs/apk/app-debug.apk"
+            location="/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="1786248185115"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1861580422787" >
+        <artifact
+            location="/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
