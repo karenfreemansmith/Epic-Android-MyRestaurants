@@ -17,19 +17,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MyRestaurants"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
         android:textColor="@color/colorPrimaryText"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Zip Code"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorTextIcons"
+        android:layout_above="@+id/findRestaurantsButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/locationEditText"
+        android:inputType="number" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Find Restaurants"
         android:id="@+id/findRestaurantsButton"
         android:background="@color/colorAccent"
         android:textColor="@color/colorTextIcons"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        tools:layout_width="wrap_content"
+        android:minWidth="164dip" />
+
+
 </RelativeLayout>

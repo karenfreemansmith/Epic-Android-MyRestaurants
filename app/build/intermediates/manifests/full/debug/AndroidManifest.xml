@@ -21,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.freeman_smith.karen.myrestaurants.RestaurantsActivity" />
     </application>
 
 </manifest>
