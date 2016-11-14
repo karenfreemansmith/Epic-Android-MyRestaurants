@@ -1,10 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

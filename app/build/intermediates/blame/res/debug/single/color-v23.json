@@ -1,10 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color-v23/abc_color_highlight_material.xml"
     }
 ]
