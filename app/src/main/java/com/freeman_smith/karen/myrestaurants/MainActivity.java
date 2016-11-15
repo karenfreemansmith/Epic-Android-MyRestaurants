@@ -1,22 +1,26 @@
 package com.freeman_smith.karen.myrestaurants;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.graphics.Typeface;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = MainActivity.class.getSimpleName();
     private Button mFindRestaurantsButton;
     private EditText mLocationEditText;
+    private TextView mTitleTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mTitleTextView = (TextView) findViewById(R.id.titleTextView);
+        Typeface philosopherFont = Typeface.createFromAsset(getAssets(), "fonts/Philosopher-Regular.ttf");
+        mTitleTextView.setTypeface(philosopherFont);
         mLocationEditText = (EditText) findViewById(R.id.locationEditText);
         mFindRestaurantsButton = (Button) findViewById(R.id.findRestaurantsButton);
             mFindRestaurantsButton.setOnClickListener(new View.OnClickListener() {
