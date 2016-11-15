@@ -10,17 +10,20 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
 public class RestaurantsActivity extends AppCompatActivity {
+    @Bind(R.id.locationTextView) TextView mLocationTextView;
+    @Bind(R.id.listView) ListView mListView;
     private String[] restaurants = new String[] {"McDonalds", "Arby's", "Taco Bell", "Wendy's", "Del Taco", "Taco Time", "Subway", "Denny's", "IHOP", "Iron Skillet", "Dairy Queen"};
-    private ListView mListView;
-    private TextView mLocationTextView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurants);
 
-        mListView = (ListView) findViewById(R.id.listView);
-        mLocationTextView = (TextView) findViewById(R.id.locationTextView);
+        ButterKnife.bind(this);
 
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");

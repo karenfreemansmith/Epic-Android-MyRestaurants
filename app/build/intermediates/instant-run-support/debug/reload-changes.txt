@@ -1,2 +1,3 @@
-CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/MainActivity$override.class
+CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/RestaurantsActivity$override.class
 CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/Users/Guest/StudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/RestaurantsActivity$1$override.class
