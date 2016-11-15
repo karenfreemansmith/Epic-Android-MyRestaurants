@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
@@ -32,12 +32,12 @@
         "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -92,16 +92,16 @@
         "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_restaurants.xml",
-        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\src\\main\\res\\layout\\activity_restaurants.xml"
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Guest\\StudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_restaurants.xml",
+        "source": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/C:\\Users\\Karen Freeman-Smith\\AndroidStudioProjects\\EpicAndroidWk1-MyRestaurants\\app\\src\\main\\res\\layout\\activity_restaurants.xml"
     },
     {
         "merged": "/Users/Guest/Desktop/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
