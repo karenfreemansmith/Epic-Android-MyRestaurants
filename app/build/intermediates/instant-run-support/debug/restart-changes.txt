@@ -1,0 +1,3 @@
+CHANGED,/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/freeman_smith/karen/myrestaurants/RestaurantsActivity.class
+CHANGED,/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/freeman_smith/karen/myrestaurants/YelpService.class
+CHANGED,/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/freeman_smith/karen/myrestaurants/RestaurantsActivity$2.class

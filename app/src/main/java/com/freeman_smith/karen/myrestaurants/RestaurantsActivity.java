@@ -3,6 +3,7 @@ package com.freeman_smith.karen.myrestaurants;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -13,7 +14,14 @@ import android.widget.Toast;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Response;
+
+import java.io.IOException;
+
 public class RestaurantsActivity extends AppCompatActivity {
+    private static final String TAG = RestaurantsActivity.class.getSimpleName();
     @Bind(R.id.locationTextView) TextView mLocationTextView;
     @Bind(R.id.listView) ListView mListView;
     private String[] restaurants = new String[] {"McDonalds", "Arby's", "Taco Bell", "Wendy's", "Del Taco", "Taco Time", "Subway", "Denny's", "IHOP", "Iron Skillet", "Dairy Queen"};
@@ -27,6 +35,7 @@ public class RestaurantsActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
+        getRestaurants(location);
         mLocationTextView.setText("Here are all the restaurants near: " + location);
 
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, restaurants);
@@ -38,6 +47,29 @@ public class RestaurantsActivity extends AppCompatActivity {
                 String restaurant = ((TextView)view).getText().toString();
                 Toast.makeText(RestaurantsActivity.this, restaurant, Toast.LENGTH_LONG).show();
             }
+        });
+    }
+
+    private void getRestaurants(String location) {
+        final YelpService yelpService = new YelpService();
+        yelpService.findRestaurants(location, new Callback() {
+
+            @Override
+            public void onFailure(Call call, IOException e) {
+                e.printStackTrace();
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                try {
+                    Log.v("got here", "in getRestaurants");
+                    String jsonData = response.body().string();
+                    Log.v(TAG, jsonData);
+                } catch(IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
         });
     }
 }

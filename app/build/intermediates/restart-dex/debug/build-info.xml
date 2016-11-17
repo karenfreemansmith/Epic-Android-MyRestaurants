@@ -4,43 +4,44 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="17633131003124"
-    verifier="CLASS_ADDED" >
+    timestamp="25321903248196"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="411" />
+        duration="682" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="861" />
     <task
         name="instant-run-transform"
-        duration="34" />
+        duration="40" />
     <task
         name="verifier"
-        duration="13" />
+        duration="1" />
 
     <artifact
-        location="/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
-        type="DEX" />
+        location="/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="14314846947064" >
+    <build timestamp="24263947644896" >
         <artifact
             location="/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="17633131003124"
-        verifier="CLASS_ADDED" >
+        timestamp="24633763911400"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
+            location="/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/builds/debug/24633763911400/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="25321903248196"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
-            type="DEX" />
+            location="/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
