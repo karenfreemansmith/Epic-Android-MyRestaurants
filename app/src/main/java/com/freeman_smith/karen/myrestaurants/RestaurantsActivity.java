@@ -54,9 +54,10 @@ public class RestaurantsActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call call, Response response) throws IOException {
                 try {
+                    mRestaurants = yelpService.processResults(response);
                     String jsonData = response.body().string();
                     Log.v(TAG, jsonData);
-                    mRestaurants = yelpService.processResults(response);
+
 
                     RestaurantsActivity.this.runOnUiThread(new Runnable() {
                         @Override

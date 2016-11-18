@@ -1,7 +1,5 @@
 package com.freeman_smith.karen.myrestaurants;
 
-import android.util.Log;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -36,7 +34,7 @@ public class YelpService {
         urlBuilder.addQueryParameter(Constants.YELP_LOCATION_QUERY_PARAMETER, location);
         String url = urlBuilder.build().toString();
 
-        Request request = new Request.Builder()
+        Request request= new Request.Builder()
                 .url(url)
                 .build();
 
@@ -48,7 +46,7 @@ public class YelpService {
         ArrayList<Restaurant> restaurants = new ArrayList<>();
 
         try {
-            String jsonData = response.body().string(); //this is null - why?
+            String jsonData = response.body().string();
             if(response.isSuccessful()) {
                 JSONObject yelpJSON = new JSONObject(jsonData); //we get to here, then exception.
                 JSONArray businessJSON = yelpJSON.getJSONArray("businesses");
@@ -59,7 +57,7 @@ public class YelpService {
                     String website = restaurantJSON.getString("url");
                     double rating = restaurantJSON.getDouble("rating");
                     String imageURL = restaurantJSON.getString("image_url");
-                    double latitude = restaurantJSON.getJSONObject("location").getJSONObject("coordinate").getDouble("latitide");
+                    double latitude = restaurantJSON.getJSONObject("location").getJSONObject("coordinate").getDouble("latitude");
                     double longitude = restaurantJSON.getJSONObject("location").getJSONObject("coordinate").getDouble("longitude");
                     ArrayList<String> address = new ArrayList<>();
                     JSONArray addressJSON = restaurantJSON.getJSONObject("location").getJSONArray("display_address");
@@ -75,9 +73,9 @@ public class YelpService {
                     restaurants.add(restaurant);
                 }
             }
-        } catch(IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
-        } catch(JSONException e) {
+        } catch (JSONException e) {
             e.printStackTrace();
         }
         return restaurants;
