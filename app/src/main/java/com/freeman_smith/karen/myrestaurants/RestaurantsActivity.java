@@ -19,12 +19,14 @@ import okhttp3.Callback;
 import okhttp3.Response;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class RestaurantsActivity extends AppCompatActivity {
     private static final String TAG = RestaurantsActivity.class.getSimpleName();
     @Bind(R.id.locationTextView) TextView mLocationTextView;
     @Bind(R.id.listView) ListView mListView;
-    private String[] restaurants = new String[] {"McDonalds", "Arby's", "Taco Bell", "Wendy's", "Del Taco", "Taco Time", "Subway", "Denny's", "IHOP", "Iron Skillet", "Dairy Queen"};
+
+    public ArrayList<Restaurant> mRestaurants = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,16 +40,6 @@ public class RestaurantsActivity extends AppCompatActivity {
         getRestaurants(location);
         mLocationTextView.setText("Here are all the restaurants near: " + location);
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, restaurants);
-        mListView.setAdapter(adapter);
-
-        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String restaurant = ((TextView)view).getText().toString();
-                Toast.makeText(RestaurantsActivity.this, restaurant, Toast.LENGTH_LONG).show();
-            }
-        });
     }
 
     private void getRestaurants(String location) {
@@ -62,9 +54,32 @@ public class RestaurantsActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call call, Response response) throws IOException {
                 try {
-                    Log.v("got here", "in getRestaurants");
                     String jsonData = response.body().string();
                     Log.v(TAG, jsonData);
+                    mRestaurants = yelpService.processResults(response);
+
+                    RestaurantsActivity.this.runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            String[] restaurantNames = new String[mRestaurants.size()];
+                            for(int i=0; i<restaurantNames.length; i++) {
+                                restaurantNames[i] = mRestaurants.get(i).getName();
+                            }
+
+                            ArrayAdapter adapter = new ArrayAdapter(RestaurantsActivity.this, android.R.layout.simple_list_item_1, restaurantNames);
+                            mListView.setAdapter(adapter);
+
+                            mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                                @Override
+                                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                                    String restaurant = ((TextView)view).getText().toString();
+                                    Toast.makeText(RestaurantsActivity.this, restaurant, Toast.LENGTH_LONG).show();
+                                }
+                            });
+                        }
+                    });
+
+
                 } catch(IOException e) {
                     e.printStackTrace();
                 }
