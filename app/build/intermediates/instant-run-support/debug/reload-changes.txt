@@ -1,2 +1,0 @@
-CHANGED,/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/YelpService$override.class
-CHANGED,/Users/Guest/AndroidStudioProjects/EpicAndroidWk1-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
