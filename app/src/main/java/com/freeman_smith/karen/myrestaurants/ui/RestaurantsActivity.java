@@ -1,4 +1,4 @@
-package com.freeman_smith.karen.myrestaurants;
+package com.freeman_smith.karen.myrestaurants.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.freeman_smith.karen.myrestaurants.R;
+import com.freeman_smith.karen.myrestaurants.models.Restaurant;
+import com.freeman_smith.karen.myrestaurants.services.YelpService;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

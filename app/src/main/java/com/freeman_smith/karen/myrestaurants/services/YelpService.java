@@ -1,4 +1,7 @@
-package com.freeman_smith.karen.myrestaurants;
+package com.freeman_smith.karen.myrestaurants.services;
+
+import com.freeman_smith.karen.myrestaurants.Constants;
+import com.freeman_smith.karen.myrestaurants.models.Restaurant;
 
 import org.json.JSONArray;
 import org.json.JSONException;

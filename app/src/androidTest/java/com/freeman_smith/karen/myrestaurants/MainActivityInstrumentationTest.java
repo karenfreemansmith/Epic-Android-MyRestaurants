@@ -2,6 +2,8 @@ package com.freeman_smith.karen.myrestaurants;
 
 import android.support.test.rule.ActivityTestRule;
 
+import com.freeman_smith.karen.myrestaurants.ui.MainActivity;
+
 import org.junit.Rule;
 import org.junit.Test;
 

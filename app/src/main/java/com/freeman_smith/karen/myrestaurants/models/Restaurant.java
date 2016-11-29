@@ -1,4 +1,4 @@
-package com.freeman_smith.karen.myrestaurants;
+package com.freeman_smith.karen.myrestaurants.models;
 
 import java.util.ArrayList;
 

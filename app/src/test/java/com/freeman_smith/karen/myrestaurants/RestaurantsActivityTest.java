@@ -3,6 +3,8 @@ package com.freeman_smith.karen.myrestaurants;
 import android.os.Build;
 import android.widget.ListView;
 
+import com.freeman_smith.karen.myrestaurants.ui.RestaurantsActivity;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
