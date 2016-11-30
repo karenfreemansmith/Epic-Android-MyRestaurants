@@ -4,7 +4,7 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="16770248950114" >
+    timestamp="34829294830975" >
 
     <task
         name="javac"
@@ -20,18 +20,13 @@
         duration="0" />
 
     <artifact
-        location="/Users/Guest/StudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
+        location="/Users/Guest/StudioProjects/Epic-Android-MyRestaurants/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="16533964372673" >
+    <build timestamp="34829294830975" >
         <artifact
             location="/Users/Guest/StudioProjects/Epic-Android-MyRestaurants/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="16770248950114" >
-        <artifact
-            location="/Users/Guest/StudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

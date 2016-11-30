@@ -44,7 +44,7 @@ public class Restaurant {
         return mRating;
     }
 
-    public String getmImageUrl() {
+    public String getImageUrl() {
         return mImageUrl;
     }
 
