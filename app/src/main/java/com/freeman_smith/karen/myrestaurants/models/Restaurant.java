@@ -1,10 +1,13 @@
 package com.freeman_smith.karen.myrestaurants.models;
 
+import org.parceler.Parcel;
+
 import java.util.ArrayList;
 
 /**
  * Created by Guest on 11/17/16.
  */
+@Parcel
 public class Restaurant {
     private String mName;
     private String mPhone;
