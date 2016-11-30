@@ -1,4 +1,0 @@
-CHANGED,/Users/Guest/StudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/adapters/RestaurantListAdapter$RestaurantViewHolder$override.class
-CHANGED,/Users/Guest/StudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/models/Restaurant$override.class
-CHANGED,/Users/Guest/StudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/Guest/StudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/freeman_smith/karen/myrestaurants/adapters/RestaurantListAdapter$override.class
