@@ -1,7 +1,9 @@
 package com.freeman_smith.karen.myrestaurants.ui;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -13,6 +15,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.freeman_smith.karen.myrestaurants.Constants;
 import com.freeman_smith.karen.myrestaurants.R;
 import com.freeman_smith.karen.myrestaurants.adapters.RestaurantListAdapter;
 import com.freeman_smith.karen.myrestaurants.models.Restaurant;
@@ -30,6 +33,8 @@ import java.util.ArrayList;
 
 public class RestaurantsActivity extends AppCompatActivity {
     private static final String TAG = RestaurantsActivity.class.getSimpleName();
+//    private SharedPreferences mSharedPreferences;
+//    private String mRecentAddress;
 
     @Bind(R.id.recyclerView) RecyclerView mRecyclerView;
     private RestaurantListAdapter mAdapter;
@@ -45,7 +50,14 @@ public class RestaurantsActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
+
         getRestaurants(location);
+// Shared preferences code:
+//        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+//        mRecentAddress = mSharedPreferences.getString(Constants.PREFERENCES_LOCATION_KEY, null);
+//        if(mRecentAddress != null) {
+//            getRestaurants(mRecentAddress);
+//        }
 
     }
 
@@ -60,20 +72,21 @@ public class RestaurantsActivity extends AppCompatActivity {
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
-//                try {
-                    mRestaurants = yelpService.processResults(response);
-//                    String jsonData = response.body().string();
-//                    Log.v(TAG, jsonData);
 
+                mRestaurants = yelpService.processResults(response);
 
-                    RestaurantsActivity.this.runOnUiThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            mAdapter = new RestaurantListAdapter(getApplicationContext(), mRestaurants);
-                            mRecyclerView.setAdapter(mAdapter);
-                            RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(RestaurantsActivity.this);
-                            mRecyclerView.setLayoutManager(layoutManager);
-                            mRecyclerView.setHasFixedSize(true);
+                RestaurantsActivity.this.runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        mAdapter = new RestaurantListAdapter(getApplicationContext(), mRestaurants);
+                        mRecyclerView.setAdapter(mAdapter);
+                        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(RestaurantsActivity.this);
+                        mRecyclerView.setLayoutManager(layoutManager);
+                        mRecyclerView.setHasFixedSize(true);
+
+//
+                        //Previous code for list adapter...
+//
 //                            String[] restaurantNames = new String[mRestaurants.size()];
 //                            for(int i=0; i<restaurantNames.length; i++) {
 //                                restaurantNames[i] = mRestaurants.get(i).getName();
@@ -89,13 +102,11 @@ public class RestaurantsActivity extends AppCompatActivity {
 //                                    Toast.makeText(RestaurantsActivity.this, restaurant, Toast.LENGTH_LONG).show();
 //                                }
 //                            });
-                        }
-                    });
+                    }
+                });
 
 
-//                } catch(IOException e) {
-//                    e.printStackTrace();
-//                }
+
             }
 
         });
