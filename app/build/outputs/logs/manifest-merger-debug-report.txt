@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:3:5-52
 		INJECTED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml
@@ -26,7 +26,7 @@ MERGED from [com.google.firebase:firebase-iid:9.2.1] /Users/Guest/AndroidStudioP
 	android:name
 		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:7:5-31:19
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:7:5-30:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
@@ -1234,47 +1234,45 @@ MERGED from [com.android.support:support-compat:24.2.1] /Users/Guest/AndroidStud
 	android:theme
 		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.freeman_smith.karen.myrestaurants.ui.MainActivity
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:13:9-16:20
-	android:theme
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:15:13-52
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:13:9-15:20
 	android:name
 		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:14:13-44
 activity#com.freeman_smith.karen.myrestaurants.ui.RestaurantsActivity
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:17:9-21:20
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:16:9-20:20
 	android:name
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:17:19-57
+		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:16:19-57
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:18:13-20:52
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:17:13-19:52
 	android:value
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:20:17-49
+		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:19:17-49
 	android:name
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:19:17-63
+		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:18:17-63
 activity#com.freeman_smith.karen.myrestaurants.ui.RestaurantDetailActivity
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:22:9-65
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:21:9-65
 	android:name
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:22:19-62
+		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:21:19-62
 activity#com.freeman_smith.karen.myrestaurants.ui.SavedRestaurantListActivity
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:23:9-68
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:22:9-68
 	android:name
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:23:19-65
+		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:22:19-65
 activity#com.freeman_smith.karen.myrestaurants.ui.CreateAccountActivity
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:24:9-62
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:23:9-62
 	android:name
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:24:19-59
+		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:23:19-59
 activity#com.freeman_smith.karen.myrestaurants.ui.LoginActivity
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:25:9-30:20
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:24:9-29:20
 	android:name
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:25:19-51
+		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:24:19-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:26:13-29:29
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:28:17-77
+ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:28:27-74
+		ADDED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml:27:27-74
 uses-sdk
 INJECTED from /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:21:5-23:78

@@ -1957,12 +1957,13 @@ containing a value of this type.
         public static final int action_bar_title=0x7f0b002d;
         public static final int action_context_bar=0x7f0b004f;
         public static final int action_divider=0x7f0b007b;
+        public static final int action_logout=0x7f0b0085;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
         public static final int action_mode_bar=0x7f0b004b;
         public static final int action_mode_bar_stub=0x7f0b004a;
         public static final int action_mode_close_button=0x7f0b002f;
-        public static final int action_search=0x7f0b0085;
+        public static final int action_search=0x7f0b0086;
         public static final int activity_chooser_view_content=0x7f0b0030;
         public static final int activity_restaurants=0x7f0b006d;
         public static final int add=0x7f0b0014;
@@ -2138,7 +2139,8 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f04002d;
     }
     public static final class menu {
-        public static final int menu_search=0x7f0d0000;
+        public static final int menu_main=0x7f0d0000;
+        public static final int menu_search=0x7f0d0001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
