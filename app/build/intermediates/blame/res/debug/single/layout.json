@@ -4,12 +4,12 @@
         "source": "/Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/Guest/AndroidStudioProjects/Epic-Android-MyRestaurants/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
