@@ -1942,9 +1942,10 @@ containing a value of this type.
         public static final int ic_exit_to_app_black_24dp=0x7f02007e;
         public static final int ic_local_phone_black_24dp=0x7f02007f;
         public static final int ic_map_black_24dp=0x7f020080;
-        public static final int ic_search_white_24dp=0x7f020081;
-        public static final int notification_template_icon_bg=0x7f020083;
-        public static final int waffles=0x7f020082;
+        public static final int ic_reorder_white_24dp=0x7f020081;
+        public static final int ic_search_white_24dp=0x7f020082;
+        public static final int notification_template_icon_bg=0x7f020084;
+        public static final int waffles=0x7f020083;
     }
     public static final class id {
         public static final int action0=0x7f0b0077;
@@ -1957,13 +1958,13 @@ containing a value of this type.
         public static final int action_bar_title=0x7f0b002d;
         public static final int action_context_bar=0x7f0b004f;
         public static final int action_divider=0x7f0b007b;
-        public static final int action_logout=0x7f0b0085;
+        public static final int action_logout=0x7f0b0086;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
         public static final int action_mode_bar=0x7f0b004b;
         public static final int action_mode_bar_stub=0x7f0b004a;
         public static final int action_mode_close_button=0x7f0b002f;
-        public static final int action_search=0x7f0b0086;
+        public static final int action_search=0x7f0b0087;
         public static final int activity_chooser_view_content=0x7f0b0030;
         public static final int activity_restaurants=0x7f0b006d;
         public static final int add=0x7f0b0014;
@@ -1991,6 +1992,7 @@ containing a value of this type.
         public static final int decor_content_parent=0x7f0b004c;
         public static final int default_activity_button=0x7f0b0033;
         public static final int disableHome=0x7f0b000d;
+        public static final int dragIcon=0x7f0b0085;
         public static final int edit_query=0x7f0b0050;
         public static final int emailEditText=0x7f0b0060;
         public static final int end=0x7f0b001c;
@@ -2133,10 +2135,11 @@ containing a value of this type.
         public static final int notification_template_part_chronometer=0x7f040027;
         public static final int notification_template_part_time=0x7f040028;
         public static final int restaurant_list_item=0x7f040029;
-        public static final int select_dialog_item_material=0x7f04002a;
-        public static final int select_dialog_multichoice_material=0x7f04002b;
-        public static final int select_dialog_singlechoice_material=0x7f04002c;
-        public static final int support_simple_spinner_dropdown_item=0x7f04002d;
+        public static final int restaurant_list_item_drag=0x7f04002a;
+        public static final int select_dialog_item_material=0x7f04002b;
+        public static final int select_dialog_multichoice_material=0x7f04002c;
+        public static final int select_dialog_singlechoice_material=0x7f04002d;
+        public static final int support_simple_spinner_dropdown_item=0x7f04002e;
     }
     public static final class menu {
         public static final int menu_main=0x7f0d0000;
