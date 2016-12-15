@@ -6,9 +6,14 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -65,6 +70,41 @@ public class RestaurantListFragment extends Fragment {
     }
 
     return view;
+  }
+
+  @Override
+  public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+    super.onCreateOptionsMenu(menu, inflater);
+
+    inflater.inflate(R.menu.menu_search, menu);
+
+    MenuItem menuItem = menu.findItem(R.id.action_search);
+    SearchView searchView = (SearchView) MenuItemCompat.getActionView(menuItem);
+
+    searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+
+      @Override
+      public boolean onQueryTextSubmit(String query) {
+        addToSharedPreferences(query);
+        getRestaurants(query);
+        return false;
+      }
+
+      @Override
+      public boolean onQueryTextChange(String newText) {
+        return false;
+      }
+    });
+
+  }
+
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+    return super.onOptionsItemSelected(item);
+  }
+
+  private void addToSharedPreferences(String location) {
+    mEditor.putString(Constants.PREFERENCES_LOCATION_KEY, location);
   }
 
   public void getRestaurants(String location) {

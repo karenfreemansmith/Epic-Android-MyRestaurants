@@ -10,8 +10,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".ui.RestaurantsActivity">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/fragmentRestaurantList"
+        android:name="com.freeman_smith.karen.myrestaurants.ui.RestaurantListFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_restaurant_list" />
+
 </RelativeLayout>
