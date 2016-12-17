@@ -29,10 +29,7 @@ public class RestaurantsActivityInstrumentationText {
     public void listItemClickDisplaysToastWithCorrectRestaurant() {
         View activityDecorView = activityTestRule.getActivity().getWindow().getDecorView();
         String restaurantName = "McDonalds";
-        onData(anything())
-                .inAdapterView(withId(R.id.listView))
-                .atPosition(0)
-                .perform(click());
+
         onView(withText(restaurantName)).inRoot(withDecorView(not(activityDecorView)))
                 .check(matches(withText(restaurantName)));
     }
