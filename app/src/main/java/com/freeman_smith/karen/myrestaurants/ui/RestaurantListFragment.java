@@ -22,6 +22,7 @@ import com.freeman_smith.karen.myrestaurants.R;
 import com.freeman_smith.karen.myrestaurants.adapters.RestaurantListAdapter;
 import com.freeman_smith.karen.myrestaurants.models.Restaurant;
 import com.freeman_smith.karen.myrestaurants.services.YelpService;
+import com.freeman_smith.karen.myrestaurants.util.OnRestaurantSelectedListener;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -33,19 +34,26 @@ import okhttp3.Callback;
 import okhttp3.Response;
 
 public class RestaurantListFragment extends Fragment {
-  @Bind(R.id.recyclerView)
-  RecyclerView mRecyclerView;
+  @Bind(R.id.recyclerView) RecyclerView mRecyclerView;
 
   private RestaurantListAdapter mAdapter;
   public ArrayList<Restaurant> mRestaurants = new ArrayList<>();
   private SharedPreferences mSharedPreferences;
   private SharedPreferences.Editor mEditor;
   private String mRecentAddress;
-
-
-
+  private OnRestaurantSelectedListener mOnRestaurantSelectedListener;
 
   public RestaurantListFragment() {}
+
+  @Override
+  public void onAttach(Context context) {
+    super.onAttach(context);
+    try {
+      mOnRestaurantSelectedListener = (OnRestaurantSelectedListener) context;
+    } catch (ClassCastException e) {
+      throw new ClassCastException(context.toString() + e.getMessage());
+    }
+  }
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
@@ -124,7 +132,8 @@ public class RestaurantListFragment extends Fragment {
         getActivity().runOnUiThread(new Runnable() {
           @Override
           public void run() {
-            mAdapter = new RestaurantListAdapter(getActivity(), mRestaurants);
+            mAdapter = new RestaurantListAdapter(getActivity(), mRestaurants, mOnRestaurantSelectedListener);
+            mRecyclerView.setAdapter(mAdapter);
 
             mRecyclerView.setAdapter(mAdapter);
             RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
