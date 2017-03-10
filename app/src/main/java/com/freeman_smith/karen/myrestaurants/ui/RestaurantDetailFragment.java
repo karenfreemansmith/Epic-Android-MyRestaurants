@@ -165,7 +165,7 @@ public class RestaurantDetailFragment extends Fragment implements View.OnClickLi
             startActivity(webIntent);
         }
         if(v == mPhoneLabel) {
-            Intent phoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse(mRestaurant.getPhone()));
+            Intent phoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + mRestaurant.getPhone()));
             startActivity(phoneIntent);
         }
         if(v == mAddressLabel) {
